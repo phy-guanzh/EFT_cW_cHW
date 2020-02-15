@@ -1,0 +1,15 @@
+change helicity False
+change rwgt_dir rwgt
+###
+#************	cW	***************************
+launch --rwgt_name=cW_1_cHW_1
+        set frblock 21 9.999999e-01
+        set frblock 28 9.999999e-01
+#************	cW	***************************
+launch --rwgt_name=cW_0_cHW_1
+        set frblock 21 1e-99
+	set frblock 28 9.999999e-01
+#************	cW	***************************
+launch --rwgt_name=cW_1_cHW_0
+        set frblock 21 9.999999e-01
+	set frblock 28 1e-99
